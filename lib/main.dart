@@ -11,7 +11,7 @@ class CarbonCreditEmployeeApp extends StatelessWidget {
         primaryColor: Color(0xFF0A0E21),
         scaffoldBackgroundColor: Color(0xFF0A0E21),
       ),
-      home: Scaffold( // Wrap Travellog in a Scaffold
+      home: Scaffold(
         body: Stack(
           children: <Widget>[
             Positioned.fill(
