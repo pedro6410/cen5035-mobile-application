@@ -20,7 +20,7 @@ class CarbonCreditEmployeeApp extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            // Content (Travellog)
+
             Travellog(),
           ],
         ),
