@@ -28,7 +28,7 @@ class _TravelModeDropdownState extends State<TravelModeDropdown> {
         setState(() {
           selected = newValue!;
         });
-        widget.onModeChanged(selected); // Send selected mode back to parent
+        widget.onModeChanged(selected);
       },
     );
   }

@@ -22,5 +22,5 @@ Future<bool> requestLocationPermission() async {
     return false;
   }
 
-  return true; //
+  return true;
 }
