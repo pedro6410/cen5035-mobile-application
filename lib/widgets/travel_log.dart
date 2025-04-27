@@ -317,7 +317,7 @@ class _TravelLogState extends State<Travellog> {
 
                 SizedBox(height: 20),
 
-                
+
                 ElevatedButton(
                   onPressed: tripStarted ? endTrip : null,
                   child: Text('End Trip'),
