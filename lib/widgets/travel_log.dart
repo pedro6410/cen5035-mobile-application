@@ -309,7 +309,7 @@ class _TravelLogState extends State<Travellog> {
 
                 SizedBox(height: 20),
 
-                // Timer or Status Text
+
                 Text(
                   displayString,
                   style: TextStyle(fontSize: 20),
@@ -317,7 +317,7 @@ class _TravelLogState extends State<Travellog> {
 
                 SizedBox(height: 20),
 
-                // End Trip button
+                
                 ElevatedButton(
                   onPressed: tripStarted ? endTrip : null,
                   child: Text('End Trip'),
